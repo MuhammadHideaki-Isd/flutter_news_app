@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
   get: ^4.7.2                    # State management & routing (GetX)
   http: ^1.4.0                   # HTTP client untuk memanggil REST API
   url_launcher: ^6.3.1           # Buka artikel di browser eksternal
@@ -41,6 +42,11 @@ dependencies:
   cached_network_image: ^3.4.1   # Cache gambar dari network
   timeago: ^3.7.1                # Format waktu "x menit lalu"
   flutter_dotenv: ^5.2.1         # Membaca API key dari file .env
+  flutter_riverpod: ^3.4.3       # State management menggunakan Riverpod
+  go_router: ^18.0.1             # Routing dan navigasi menggunakan GoRouter
+  google_fonts: ^8.2.1           # Menggunakan font dari Google Fonts
+  intl: ^0.20.3                  # Internationalization dan formatting tanggal/waktu
+
 
 dev_dependencies:
   flutter_test:
