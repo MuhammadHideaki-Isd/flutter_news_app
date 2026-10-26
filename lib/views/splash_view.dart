@@ -4,6 +4,8 @@ import 'package:news_app/routes/app_pages.dart';
 import 'package:news_app/utils/app_colors.dart';
 
 class SplashView extends StatefulWidget {
+  const SplashView({super.key});
+
   @override
   _SplashViewState createState() => _SplashViewState();
 }

@@ -8,8 +8,7 @@ class NewsCard extends StatelessWidget {
   final NewsArticle article;
   final VoidCallback onTap;
 
-  const NewsCard({Key? key, required this.article, required this.onTap})
-    : super(key: key);
+  const NewsCard({super.key, required this.article, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

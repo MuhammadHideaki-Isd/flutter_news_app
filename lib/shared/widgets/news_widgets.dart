@@ -23,8 +23,8 @@ class NewsImage extends StatelessWidget {
             width: width,
             height: height,
             fit: BoxFit.cover,
-            placeholder: (_, __) => _fallback(),
-            errorWidget: (_, __, ___) => _fallback(),
+            placeholder: (_, _) => _fallback(),
+            errorWidget: (_, _, _) => _fallback(),
           ),
   );
   Widget _fallback() => Container(

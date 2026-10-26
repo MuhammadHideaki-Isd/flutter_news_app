@@ -11,6 +11,8 @@ import 'package:news_app/utils/app_colors.dart';
 class NewsDetailView extends StatelessWidget {
   final NewsArticle article = Get.arguments as NewsArticle;
 
+  const NewsDetailView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
